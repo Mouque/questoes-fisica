@@ -10,16 +10,18 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     
-   // MongoClient client = new MongoClient("mongodb+srv://ProjetoPG:5MNW2nCBJd5jEqiR@cluster0.gxxlu61.mongodb.net/login?retryWrites=true&w=majority");
+    //banco de dados
     MongoClient client = new MongoClient("mongodb+srv://userDS:tLoZQ7UacyaGfHOC@cluster0.s7umrfl.mongodb.net/login?retryWrites=true&w=majority");
     IMongoDatabase database;
     IMongoCollection<BsonDocument> collection;
 
-
+    //dados a serem coletados
     public string quest;
     public string resposta;
     public int certeza;
+    public string tempo;
 
     //cronometro
     public bool Cronometro;
@@ -28,8 +30,8 @@ public class GameManager : MonoBehaviour
     public int min;
     public int horas;
 
-    //data e hora
-    public string tempo;
+   
+   
 
 
     // Start is called before the first frame update
@@ -39,7 +41,29 @@ public class GameManager : MonoBehaviour
        
     }
 
-    
+    public void Awake()
+    {
+
+
+        if (instance == null)
+        {
+
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            if (instance != this)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+
+
+    }
+
+
     void FixedUpdate()
     {
         //Cronometro
