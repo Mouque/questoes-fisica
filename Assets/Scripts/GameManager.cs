@@ -9,8 +9,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
-{    
-    MongoClient client = new MongoClient("mongodb+srv://ProjetoPG:5MNW2nCBJd5jEqiR@cluster0.gxxlu61.mongodb.net/login?retryWrites=true&w=majority");
+{
+    
+   // MongoClient client = new MongoClient("mongodb+srv://ProjetoPG:5MNW2nCBJd5jEqiR@cluster0.gxxlu61.mongodb.net/login?retryWrites=true&w=majority");
+    MongoClient client = new MongoClient("mongodb+srv://userDS:tLoZQ7UacyaGfHOC@cluster0.s7umrfl.mongodb.net/login?retryWrites=true&w=majority");
     IMongoDatabase database;
     IMongoCollection<BsonDocument> collection;
 
