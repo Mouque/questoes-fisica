@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/question7.unity
+    path: "Assets/Scenes/Quest\xE3o 7/question7.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Question6/Scenes/Q6 Alt A.unity
+    path: "Assets/Scenes/Quest\xE3o 6/Q6 Alt A.unity"
     guid: e4ae8b34c35f06742a77b04b1bd2dfa4
   - enabled: 1
-    path: Assets/Question6/Scenes/Q6 Alt B.unity
+    path: "Assets/Scenes/Quest\xE3o 6/Q6 Alt B.unity"
     guid: 53661dfc4df26384494e4a98cd8b78c8
   - enabled: 1
-    path: Assets/Question6/Scenes/Q6 Alt C.unity
+    path: "Assets/Scenes/Quest\xE3o 6/Q6 Alt C.unity"
     guid: 93aa1852c412e764fa9787a3468a0f2a
   - enabled: 1
-    path: Assets/Question6/Scenes/Q6 Alt E.unity
+    path: "Assets/Scenes/Quest\xE3o 6/Q6 Alt E.unity"
     guid: 88de1fba3ba02074c84d363b5aaeb2f8
   - enabled: 1
-    path: Assets/Question6/Scenes/Q6 4Alt.unity
+    path: "Assets/Scenes/Quest\xE3o 6/Q6 4Alt.unity"
     guid: 7e45b2f6d8118bf43b17cd949a9039e1
   - enabled: 1
-    path: "Assets/Question6/Scenes/Q6 4Alt Est\xE1tica.unity"
+    path: "Assets/Scenes/Quest\xE3o 6/Q6 4Alt Est\xE1tica.unity"
     guid: 977751d1915b01f4082a775fe49e43cf
   - enabled: 1
-    path: "Assets/Question6/Scenes/Quest\xE3o 6 pergunta.unity"
+    path: "Assets/Scenes/Quest\xE3o 6/Quest\xE3o 6 pergunta.unity"
     guid: 4f5a579a9f415934f92b0611dce7b7a4
   m_configObjects: {}
