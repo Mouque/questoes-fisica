@@ -10,7 +10,7 @@ public class Controller : MonoBehaviour
     public GameObject alternativaC;
     public GameObject alternativaD;
     public GameObject alternativaE;
-    // public GameObject todasAlternativas;
+    public GameObject todasAlternativas;
     // public GameObject feedback;
     // public GameObject loadingScreen;
 
@@ -62,7 +62,7 @@ public class Controller : MonoBehaviour
                 alternativaC.SetActive(false);
                 alternativaD.SetActive(false);
                 alternativaE.SetActive(false);
-                // todasAlternativas.SetActive(false);
+                todasAlternativas.SetActive(false);
                 // feedback.SetActive(false);
                 // loadingScreen.SetActive(false);
                 break;
@@ -74,7 +74,7 @@ public class Controller : MonoBehaviour
                 alternativaC.SetActive(false);
                 alternativaD.SetActive(false);
                 alternativaE.SetActive(false);
-                // todasAlternativas.SetActive(false);
+                todasAlternativas.SetActive(false);
                 // feedback.SetActive(false);
                 // loadingScreen.SetActive(false);
                 break;
@@ -85,7 +85,7 @@ public class Controller : MonoBehaviour
                 alternativaC.SetActive(false);
                 alternativaD.SetActive(false);
                 alternativaE.SetActive(false);
-                // todasAlternativas.SetActive(false);
+                todasAlternativas.SetActive(false);
                 // feedback.SetActive(false);
                 // loadingScreen.SetActive(false);
                 break;
@@ -96,7 +96,7 @@ public class Controller : MonoBehaviour
                 alternativaC.SetActive(true);
                 alternativaD.SetActive(false);
                 alternativaE.SetActive(false);
-                // todasAlternativas.SetActive(false);
+                todasAlternativas.SetActive(false);
                 // feedback.SetActive(false);
                 // loadingScreen.SetActive(false);
                 break;
@@ -107,7 +107,7 @@ public class Controller : MonoBehaviour
                 alternativaC.SetActive(false);
                 alternativaD.SetActive(true);
                 alternativaE.SetActive(false);
-                // todasAlternativas.SetActive(false);
+                todasAlternativas.SetActive(false);
                 // feedback.SetActive(false);
                 // loadingScreen.SetActive(false);
                 break;
@@ -118,11 +118,18 @@ public class Controller : MonoBehaviour
                 alternativaC.SetActive(false);
                 alternativaD.SetActive(false);
                 alternativaE.SetActive(true);
-                // todasAlternativas.SetActive(false);
+                todasAlternativas.SetActive(false);
                 // feedback.SetActive(false);
                 // loadingScreen.SetActive(false);
                 break;
             case 6:
+                enunciado.SetActive(false);
+                alternativaA.SetActive(false);
+                alternativaB.SetActive(false);
+                alternativaC.SetActive(false);
+                alternativaD.SetActive(false);
+                alternativaE.SetActive(false);
+                todasAlternativas.SetActive(true);
                 break;
             case 7:
                 break;
