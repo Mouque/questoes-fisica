@@ -29,4 +29,22 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Quest\xE3o 6/Quest\xE3o 6 pergunta.unity"
     guid: 4f5a579a9f415934f92b0611dce7b7a4
+  - enabled: 1
+    path: "Assets/Scenes/Quest\xE3o 12/Q12 Alt A.unity"
+    guid: f47bdcd51d32e60469ef65030239650f
+  - enabled: 1
+    path: "Assets/Scenes/Quest\xE3o 12/Q12 Alt B.unity"
+    guid: ef786a536d2d0914fb04037ec9460978
+  - enabled: 1
+    path: "Assets/Scenes/Quest\xE3o 12/Q12 Alt C.unity"
+    guid: ed9e2594207b58c4d99d56346425f577
+  - enabled: 1
+    path: "Assets/Scenes/Quest\xE3o 12/Q12 Alt D.unity"
+    guid: 1141ce8f94e79f541a698a0c2df03526
+  - enabled: 1
+    path: "Assets/Scenes/Quest\xE3o 12/Q12 4Alt Est\xE1tica.unity"
+    guid: 06d5f21ef63d0864aa6b7bec093f2b92
+  - enabled: 1
+    path: "Assets/Scenes/Quest\xE3o 12/Q12 4Alt.unity"
+    guid: a0b35e7ebcbaf6f4a98638dfa27f6498
   m_configObjects: {}
