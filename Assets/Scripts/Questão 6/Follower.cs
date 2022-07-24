@@ -13,6 +13,6 @@ public class Follower : MonoBehaviour
     void Update()
     {
         distanceTravelled += speed * Time.deltaTime;
-        transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
+        transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, EndOfPathInstruction.Stop);
     }
 }
