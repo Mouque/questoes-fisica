@@ -29,8 +29,6 @@ public class GameManager : MonoBehaviour
     public float segundos;
     public int min;
     public int horas;
-
-   
    
 
 

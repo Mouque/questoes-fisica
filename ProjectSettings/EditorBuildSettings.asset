@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuScreen.unity
+    path: Assets/Scenes/Geral/MenuScreen.unity
     guid: fc2cefa47366ee24081ad58cc2dd8cb8
   - enabled: 1
     path: "Assets/Scenes/Quest\xE3o 6/Quest\xE3o 6 pergunta.unity"
@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Quest\xE3o 12/Q12 4Alt.unity"
     guid: a0b35e7ebcbaf6f4a98638dfa27f6498
+  - enabled: 1
+    path: Assets/Scenes/Geral/Confiabilidade.unity
+    guid: e8a2dfe8601cd8b458567c550a530e81
+  - enabled: 1
+    path: Assets/Scenes/Geral/Cruz.unity
+    guid: 0028ad6b48d057244941deaf15e90f3f
   m_configObjects: {}
