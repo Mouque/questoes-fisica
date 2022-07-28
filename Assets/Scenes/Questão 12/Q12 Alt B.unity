@@ -1293,11 +1293,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2073471816}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bff2ffa4a11c8647ade6ba33405577d, type: 3}
+  m_Script: {fileID: 11500000, guid: b1d6fd38311cb8140a90dfe12c57712c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 1520625706}
-  speed: 8
+  speed: 5
+  speedMult: 5
+  X: 0
 --- !u!1 &2076383955
 GameObject:
   m_ObjectHideFlags: 0
